@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+
+# Create the wrapper script
+cat <<EOF > /usr/bin/yelp-app
+#!/bin/sh
+java -jar /usr/share/yelp-app/yelp-app-0.0.1-SNAPSHOT.jar "\$@"
+EOF
+
+# Make the script executable
+chmod +x /usr/bin/yelp-app

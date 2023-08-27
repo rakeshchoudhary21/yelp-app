@@ -1,0 +1,9 @@
+Package: yelp-app
+Version: 0.0.1-SNAPSHOT
+Section: misc
+Priority: optional
+Architecture: all
+Maintainer: Your Name <your.email@example.com>
+Depends: default-jre | java-runtime
+Description: My Yelp app Description
+ Yelp App is a simple "Hello, World!" application.
